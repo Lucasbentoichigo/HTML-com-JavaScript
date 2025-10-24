@@ -1,0 +1,50 @@
+/* Estilos Gerais */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    transition: background-color 0.5s,
+    color 0.5s;
+    margin: 0;
+    padding: 0;
+}
+
+/* Layout principal */
+main {
+    margin-top: 120px;
+}
+
+/* ☀️Tema Claro */
+body.claro {
+    background-color: #f2f2f2;
+    color: #222;
+}
+
+/* 🌙Tema Escuro */
+body.escuro {
+    background-color: #121212;
+    color: #f2f2f2;
+}
+
+/* 🎨Estilo do título */
+h1 {
+    transition: color 0.4s;
+}
+
+/* 🔘Botão */
+
+button{
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+/* fim /*
